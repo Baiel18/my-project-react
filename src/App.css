@@ -1,0 +1,45 @@
+header{
+    display: flex;
+    justify-content: center;
+   
+}
+.nav{
+    display: flex;
+    margin-top: 20px;
+}
+header a{
+    text-decoration: none;
+    color: rgba(235, 241, 233, 0.858);
+    font-weight: bolder;
+    border: 1px solid #fff;
+    padding: 10px 70px;
+}
+header a:first-child{
+    border-left: none;
+}
+header a:last-child{
+    border-right: none;
+    border-left: none;
+}
+header a:hover{
+    background-color: rgba(152, 232, 248, 0.049);
+}
+footer{
+    display: flex;  
+    justify-content: center; 
+}
+footer img{
+    width: 33px;
+}
+footer a{
+    padding:10px 50px;
+    color: rgb(195, 159, 189);
+    background-color: rgba(82, 70, 174, 0.321);
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+     display: flex;
+     gap: 20px;
+     border-radius: 10px;
+    align-items: center;
+}

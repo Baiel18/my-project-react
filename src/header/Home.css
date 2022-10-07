@@ -1,0 +1,130 @@
+.homeContent{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.797);
+}
+.topic{
+    color: rgb(91, 91, 209);
+}
+.App {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .list{
+    text-align:justify;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .list li{
+    list-style: none;
+    background-color: rgba(95, 158, 160, 0.273);
+    width: 510px;
+    font-size: 20px  
+}
+.list .checkbox{
+    width:17px;
+    height: 17px;
+}
+  .done{
+    text-decoration: line-through;
+    color: rgb(255, 255, 255);
+  }
+  .enterInput{
+    padding:10px 17px;
+    border: 1px solid white;
+    
+  }
+  .enterInputTime{
+    padding:7.8px;
+    border: 1px solid white;
+  }
+  .enterInputDate{
+    padding:9.14px 27px;
+    border: 1px solid white;
+  }
+  .addBtn{
+    padding:10px 17px;
+    background-color: rgb(97, 157, 37);
+  }
+  .delete{
+    margin-right: 3px;
+    padding: 3px;
+    float: right;
+    background-color: red;
+    border: 1px solid red;
+  }
+  .date{
+    
+    color:rgb(245, 151, 227);
+  }
+  .title{
+    color: rgb(228, 221, 6);
+  }
+  .store{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    background-color: rgba(174, 145, 200, 0.039);
+  }
+  .burgerTop{
+    color: black;
+    margin: 5px;
+    width: 200px;
+    height: 40px;
+    border-radius: 40px 40px 0 0;
+    background-color: rgb(214, 119, 4);
+  }
+  .burgerBotton{
+    margin: 5px;
+    width: 200px;
+    height: 30px;
+    border-radius: 0 0 30px 30px;
+    background-color: rgb(224, 135, 26);
+  }
+  .cheese{
+    width: 205px;
+    height: 10px;
+    background-color: rgb(166, 186, 16);
+    border-radius: 10px;
+  }
+  .steak{
+    width: 205px;
+    height: 25px;
+    border-radius: 10px;
+    background-color: rgb(69, 21, 21);
+  }
+  .ketchup{
+    width: 205px;
+    height: 3px;
+    border-radius: 10px;
+    background-color: rgb(255, 4, 4);
+  }
+  .chet{
+    display: flex;
+    flex-direction: column;
+  }
+  .chet img{
+    width: 40px;
+    height: 40px;
+  }
+  .chet span{
+    font-size: 20px;
+    font-weight: bold;
+    
+  }
+  .gamb{
+    color: rgb(255, 5, 5);
+  }
+  .gamburger{
+    color: gold;
+    background-color: rgba(127, 255, 212, 0.049);
+  }
+  .zacaz{
+   padding: 5px 10px ;
+   border: solid rgb(155, 15, 15);
+   border-radius: 20px;
+   background-color: brown;
+  }
