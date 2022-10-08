@@ -1,6 +1,7 @@
 .homeContent{
     text-align: center;
     color: rgba(255, 255, 255, 0.797);
+    
 }
 .topic{
     color: rgb(91, 91, 209);
@@ -12,6 +13,7 @@
     flex-direction: column;
   }
   .list{
+    font-family: URW Chancery L, cursive;
     text-align:justify;
     display: flex;
     flex-direction: column;
@@ -68,6 +70,7 @@
     align-items: center;
     gap: 50px;
     background-color: rgba(174, 145, 200, 0.039);
+    margin-bottom: 200px;
   }
   .burgerTop{
     color: black;
@@ -124,7 +127,15 @@
   }
   .zacaz{
    padding: 5px 10px ;
-   border: solid rgb(155, 15, 15);
+   border: solid rgb(255, 217, 0);
    border-radius: 20px;
-   background-color: brown;
+   background-color: rgb(214, 214, 15);
+   cursor: pointer;
+   color: #000;
+  }
+  /* "webSite" */
+  .webSite{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }

@@ -6,7 +6,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   
-  background:url('https://images.unsplash.com/photo-1664987306868-0c0e06f7aa43?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw5M3x8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60') no-repeat  center/cover ;
+  background: rgba(76, 45, 12, 0.638)  url('https://images.unsplash.com/photo-1664849618706-feda6711ecd2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1587&q=80')     ;
     
 }
 
