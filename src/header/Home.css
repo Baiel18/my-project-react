@@ -105,6 +105,12 @@
     border-radius: 10px;
     background-color: rgb(255, 4, 4);
   }
+  .kolbasa{
+    width: 205px;
+    height: 9px;
+    background-color:rgb(235, 135, 135);
+    border-radius: 10px;
+  }
   .chet{
     display: flex;
     flex-direction: column;
@@ -136,6 +142,191 @@
   /* "webSite" */
   .webSite{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
+    color: #fff;
+  }
+  .pokemons{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 3em;
+    text-align: center;
+  }
+  .pokemons li{
+    margin-top: 30px;
+    color: azure;
+    list-style: none;
+    background-color: rgba(40, 34, 61, 0.43);
+  }
+  .imgPokemon{
+    width: 180px;
+    height: 200px;
+    
+  }
+  .right-content{
+    text-align: center;
+  }
+  .card{
+    background-color: rgba(85, 71, 71, 0.488);
+  }
+  .loners{
+    color: yellow;
+    position: fixed;
+    right: 150px;
+    background-color: rgba(24, 16, 53, 0.53);
+  }
+  .lonersImg{
+    width: 250px;
+  }
+  .som{
+    background-color: rgba(42, 67, 113, 0.51);
+    border-radius: 9px;
+    color: rgb(225, 0, 0);
+  }
+  .somwithe{
+    font-size: 20px;
+    color: rgb(249, 250, 251);
+  }
+  .buy{
+    cursor: pointer;
+    font-weight: bolder;
+    color: beige;
+    font-size: 23px;
+    margin-top: 5px;
+    padding: 5px 80px;
+    border-radius: 10px;
+    background-color: rgba(199, 23, 23, 0.899);
+  }
+  @media (max-width:1120px) {
+    .loners{
+      color: yellow;
+      position: fixed;
+      right: 16px;
+      background-color: rgba(24, 16, 53, 0.53);
+      width: 250px;
+      border-radius: 12px;
+    }
+    .buy{
+      cursor: pointer;
+      font-weight: bolder;
+      color: beige;
+      font-size: 23px;
+      margin-top: 5px;
+      padding: 2px 1px;
+      border-radius: 0px;
+      background-color: rgba(199, 23, 23, 0.899);
+    }
+    .lonersImg{
+      width: 245px;
+    }
+    .pokemons{
+      display: grid;
+      grid-template-columns: repeat(3,1fr);
+      gap: 20px;
+      text-align: center;
+      margin-left: -50px;
+      font-size: 20px;
+    }
+    .imgPokemon{
+      width: 150px;
+      height: 250px;
+      
+    }
+    .pokemons li{
+      margin-top: 25px;
+      color: azure;
+      list-style: none;
+      background-color: rgba(40, 34, 61, 0.43);
+     width: 190px;      
+    }
+    
+  }
+  @media (max-width:900px) {
+    .loners{
+      color: yellow;
+      position: fixed;
+      right: 16px;
+      background-color: rgba(24, 16, 53, 0.53);
+      width: 180px;
+      border-radius: 12px;
+    }
+    .buy{
+      cursor: pointer;
+      font-weight: bolder;
+      color: beige;
+      font-size: 23px;
+      margin-top: 5px;
+      padding: 2px 1px;
+      border-radius: 10px;
+      background-color: rgba(199, 23, 23, 0.899);
+    }
+    .lonersImg{
+      width: 175px;
+    }
+    .pokemons{
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+      gap: 10px;
+      text-align: center;
+      margin-left: -45px;
+      font-size: 20px;
+    }
+    .imgPokemon{
+      width: 150px;
+      height: 250px;
+      
+    }
+    .pokemons li{
+      margin-top: 25px;
+      color: azure;
+      list-style: none;
+      background-color: rgba(40, 34, 61, 0.43);
+     width: 175px;      
+    }
+    
+  }
+  
+  @media (max-width:650px) {
+    .loners{
+      color: yellow;
+      position: fixed;
+      right: 16px;
+      background-color: rgba(24, 16, 53, 0.53);
+      width: 170px;
+      border-radius: 12px;
+      margin-top: 12em;
+    }
+    .buy{
+      cursor: pointer;
+      font-weight: bolder;
+      color: beige;
+      font-size: 23px;
+      margin-top: 5px;
+      padding: 2px 1px;
+      border-radius: 0px;
+      background-color: rgba(199, 23, 23, 0.899);
+    }
+    .lonersImg{
+      width: 165px;
+    }
+    .pokemons{
+      display: grid;
+      grid-template-columns: auto;
+      gap: 0em;
+      text-align: center;
+      margin-left: -40px;
+      font-size: 18px;
+    }
+    .imgPokemon{
+      width: 100px;
+      height: 150px;
+      
+    }
+    .pokemons li{
+      margin-top: 20px;
+      color: azure;
+      list-style: none;
+      background-color: rgba(40, 34, 61, 0.43);
+     width: 185px;      
+    }
+    
   }

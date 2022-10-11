@@ -34,7 +34,7 @@ function Todo() {
             setDate('')
             setTime('')
         } else {
-            alert('app ?')
+            alert('add ?')
         }
     }
 

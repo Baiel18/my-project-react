@@ -16,9 +16,14 @@ function App() {
       <Route path="/" element={<Home />} />
       <Route path="/about" element={<About />} />
     </Routes>
-    {/* <footer>  
-      <a href="https://www.instagram.com/karybaevv_.09/"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/2048px-Instagram_icon.png"/> Instagram</a>
-    </footer> */}
+    <footer>  
+      <div>
+      <a href="https://www.instagram.com/pokemon_journey_episode_hindi/"><img className="instagram" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/2048px-Instagram_icon.png"/> Instagram</a>
+      </div>
+      <div>
+      <a href="https://t.me/+996700047017"><img className="telegram" src="https://1000logos.net/wp-content/uploads/2021/04/Telegram-logo.png"/> Telegram</a>
+      </div>
+    </footer>
   </>
  )
 }

@@ -22,9 +22,10 @@ function Calc() {
                 <div className="burgerBotton"></div>
             </div>
             <div className="chet">
-                    <span><img src="https://pngimg.com/uploads/cheese/cheese_PNG25292.png" onClick={()=>getProduct('cheese',10)} alt='cheese'/> 3$</span>
-                    <span><img src="https://pngimg.com/uploads/steak/steak_PNG29.png" onClick={()=>getProduct('steak',20)} alt='steak'/> 5$</span>
-                    <span><img src="https://www.pngmart.com/files/5/Ketchup-PNG-HD.png" onClick={()=>getProduct('ketchup',5)} alt='ketchup'/> 1$</span>
+                    <span><img src="https://pngimg.com/uploads/cheese/cheese_PNG25292.png" onClick={()=>getProduct('cheese')} alt='cheese'/> </span>
+                    <span><img src="https://pngimg.com/uploads/steak/steak_PNG29.png" onClick={()=>getProduct('steak')} alt='steak'/> </span>
+                    <span><img src="https://www.pngmart.com/files/5/Ketchup-PNG-HD.png" onClick={()=>getProduct('ketchup')} alt='ketchup'/> </span>
+                    <span><img src="https://pngimg.com/uploads/sausage/sausage_PNG98704.png" onClick={()=>getProduct('kolbasa')} alt='kolbasa'/> </span>
             </div>
         </div>
            

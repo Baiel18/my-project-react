@@ -25,16 +25,21 @@ header a:hover{
     background-color: rgba(152, 232, 248, 0.049);
 }
 footer{
+    margin-top: 50px;
     display: flex;  
-    justify-content: center; 
+    flex-direction: column;
 }
-footer img{
+footer .instagram{
     width: 33px;
 }
+footer .telegram{
+    width: 60px;
+    margin-left: -15px;
+    margin-right: -12px;
+}
 footer a{
-    padding:10px 50px;
+    padding:5px 10px;
     color: rgb(195, 159, 189);
-    background-color: rgba(82, 70, 174, 0.321);
     text-decoration: none;
     font-size: 20px;
     font-weight: bold;

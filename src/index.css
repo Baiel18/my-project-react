@@ -5,8 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  
-  background: rgba(76, 45, 12, 0.638)  url('https://images.unsplash.com/photo-1664849618706-feda6711ecd2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1587&q=80')     ;
+  background: rgba(76, 45, 12, 0.638)  url('https://funart.pro/uploads/posts/2021-12/1640256783_3-funart-pro-p-foni-dlya-saitov-3.jpg')     ;
     
 }
 
@@ -17,4 +16,10 @@ code {
 *{
   margin: 0;
   padding: 0;
+}
+.toy{
+  margin-top: 10px;
+  color: yellow;
+  padding: 5px 10px;
+  background-color: rgba(50, 18, 229, 0.622);
 }
